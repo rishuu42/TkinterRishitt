@@ -37,10 +37,6 @@ def factorial_():
     expression=math.factorial(int(expression))
     input_text.set(expression)
     
-def power():
-    global expression
-    
-    
 expression = ""
 input_text = StringVar()
 input_frame = Frame(top, width=312, height=100, bd=0, highlightbackground="#3B3A3A", highlightcolor="#3B3A3A", highlightthickness=1)
